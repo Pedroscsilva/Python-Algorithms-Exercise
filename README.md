@@ -1,10 +1,20 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Algorithms Exercise
+
+This was a quick afternoon project to train the implementation of some algoritms with python.
+
+It includes:
+  - Two palindromes checkers (an iterative one and a recursive one);
+  - A brute force searcher (`/challenges/challenge_study_schedule.py`);
+  - A quick sorter anagram checker (`/challenges/challenge_anagrams.py`);
+  - A duplicate checker (`/challenges/challenge_find_the_duplicate.py`).
+
+I've also developed unit tests to the file in `/challenges/challenge_encrypt_message.py`)
+
+## Installation
+
+If you want to run any of the algorithms, just run the following commands on the project's root to initialize the local environment and then to install its dependencies:
+
+```bash
+$ python3 -m venv .venv && source .venv/bin/activate
+$ python3 -m pip install -r dev-requirements.txt
+```
