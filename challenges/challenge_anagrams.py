@@ -35,6 +35,3 @@ def partition(letters, start, end):
     letters[delimiter + 1], letters[end] = letters[end], letters[delimiter + 1]
 
     return delimiter + 1
-
-
-print(is_anagram("", ""))
